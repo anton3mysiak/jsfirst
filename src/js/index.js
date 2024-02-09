@@ -84,3 +84,50 @@
 
 // n = n+1 / n = n++  nt
 
+// let numberOfFilms = prompt('Скільки фільмів ви вже подивилися?', '10');
+
+
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+// const firstPerson = [];
+//     firstPerson[0] = prompt('Один з останніх переглянутих фільмів?', '');
+//     firstPerson[1] = prompt('На скільки оціните його?', '');
+
+
+// const secondPerson [];
+//     secondPerson[0] = prompt('Один з останніх переглянутих фільмів?', '');
+//     secondPerson[1] = prompt('На скільки оціните його?', '');
+
+
+// const movies = {
+//     'Noone will save you': '9.2'
+// };
+
+
+let numberOfFilms = prompt('Скільки фільмів ви вже подивилися?', '');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
+let a = prompt('Один з останніх переглянутих фільмів?', '');
+let b = prompt('На скільки оціните його?', '');
+let c = prompt('Один з останніх переглянутих фільмів?', '');
+let d = prompt('На скільки оціните його?', '');
+
+personalMovieDB.movies[a]= b;  ЗАПАМЯТАТИ
+personalMovieDB.movies[c] = d; ЗАПАМЯТАТИ
+console.log(personalMovieDB);
+
+
+
+
