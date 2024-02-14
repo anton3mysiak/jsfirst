@@ -110,24 +110,81 @@
 // };
 
 
-let numberOfFilms = prompt('Скільки фільмів ви вже подивилися?', '');
+// let numberOfFilms = prompt('Скільки фільмів ви вже подивилися?', '');
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+// let a = prompt('Один з останніх переглянутих фільмів?', '');
+// let b = prompt('На скільки оціните його?', '');
+// let c = prompt('Один з останніх переглянутих фільмів?', '');
+// let d = prompt('На скільки оціните його?', '');
+
+// personalMovieDB.movies[a]= b;  ЗАПАМЯТАТИ
+// personalMovieDB.movies[c] = d; ЗАПАМЯТАТИ
+// console.log(personalMovieDB);
+
+// if (0) {
+//     console.log('ok!');
+// } else {
+//     console.log('Goodbye!');
+// }
+
+// const num = 50;
+
+// if (num < 50) {
+//     console.log('error!');
+// } else if (num > 100) {
+//     console.log('Багато!');
+// } else {
+//     console.log('Ok!');
+// }
+
+// /// тернарний оператор
+
+// /// умова ? дія якщо true : дія якщо false
+
+// (num === 50) ? console.log('okey') : console.log('error!');
+
+
+// const num = 101;
+
+// switch (num) {
+//     case 49:
+//         console.log('error');
+//         break;
+//     case 100:
+//         console.log('not enought!');
+//         break;
+//     case 101:
+//         console.log('great!');
+//         break;
+//     default:
+//         console.log('Not at this time!')
+//         break;
+// }
+
+// const burger = true;
+// const cola = false;
+
+// if (burger && cola) {
+//     console.log('Lets have a break');
+// };
+
+// console.log(burger && cola)
+
+const people = true;
+const monster = false;
+
+if (people || monster) {
+    console.log(true);
+} else {
+    console.log('false')
 };
-let a = prompt('Один з останніх переглянутих фільмів?', '');
-let b = prompt('На скільки оціните його?', '');
-let c = prompt('Один з останніх переглянутих фільмів?', '');
-let d = prompt('На скільки оціните його?', '');
-
-personalMovieDB.movies[a]= b;  ЗАПАМЯТАТИ
-personalMovieDB.movies[c] = d; ЗАПАМЯТАТИ
-console.log(personalMovieDB);
-
 
 
 
