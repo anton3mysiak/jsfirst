@@ -177,14 +177,58 @@
 
 // console.log(burger && cola)
 
-const people = true;
-const monster = false;
+// const people = true;
+// const monster = false;
 
-if (people || monster) {
-    console.log(true);
+// if (people || monster) {
+//     console.log(true);
+// } else {
+//     console.log('false')
+// };
+
+// let num = +prompt('Введіть число -', '');
+
+// if (num%2 === 0) {
+//     console.log('Парне число отримано');
+// } else {
+//     console.log('Отримано не парне число');
+// }
+
+// let a = 2;
+// let b = 3;
+// console.log(b > a);
+
+let num = +prompt('Введіть свій вік', '');
+
+if (num >= 18) {
+    console.log('Вітаю 18 років є!');
 } else {
-    console.log('false')
-};
+    console.log('Щенок!');
+}
 
+// let a = +prompt('Порівнюємо числа', '');
+// let b = +prompt('Порівнюємо числа', '');
 
+// if (a >= b) {
+//     console.log('Error');
+// } else if (a < b) {
+//     console.log(b);
+// }
 
+// let validLogin = "user123";
+// let validPassword = "qwerty"
+
+// let validLogin = prompt('Перевіряємо ваш логін!', '');
+// let validPassword = prompt('Перевіряємо ваш пароль!', '');
+
+// if (validLogin === 'user123' ) {
+//     console.log('Логін перевірено успішно!');
+// } else {
+//     console.log('Логін введено не вірно!');
+// }
+
+// if (validPassword === 'qwerty') {
+//     console.log('Правильний пароль!')
+// } else {
+//     console.log('Вспоминай пароль!');
+// }
