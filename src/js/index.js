@@ -198,13 +198,13 @@
 // let b = 3;
 // console.log(b > a);
 
-let num = +prompt('Введіть свій вік', '');
+// let num = +prompt('Введіть свій вік', '');
 
-if (num >= 18) {
-    console.log('Вітаю 18 років є!');
-} else {
-    console.log('Щенок!');
-}
+// if (num >= 18) {
+//     console.log('Вітаю 18 років є!');
+// } else {
+//     console.log('Щенок!');
+// }
 
 // let a = +prompt('Порівнюємо числа', '');
 // let b = +prompt('Порівнюємо числа', '');
@@ -215,20 +215,16 @@ if (num >= 18) {
 //     console.log(b);
 // }
 
-// let validLogin = "user123";
-// let validPassword = "qwerty"
+const correctLogin = prompt('Перевіряємо ваш логін!', '');
+const correctPassword = prompt('Перевіряємо ваш пароль!', '');
 
-// let validLogin = prompt('Перевіряємо ваш логін!', '');
-// let validPassword = prompt('Перевіряємо ваш пароль!', '');
+if (correctLogin === 'user123' ) {
+    console.log('Логін перевірено успішно!');
+} else {
+    console.log('Логін введено не вірно!');
+}
 
-// if (validLogin === 'user123' ) {
-//     console.log('Логін перевірено успішно!');
-// } else {
-//     console.log('Логін введено не вірно!');
-// }
-
-// if (validPassword === 'qwerty') {
-//     console.log('Правильний пароль!')
-// } else {
-//     console.log('Вспоминай пароль!');
-// }
+if (correctPassword === 'qwerty') {
+    console.log('Правильний пароль!')
+} else {     console.log('Вспоминай пароль!');
+}
