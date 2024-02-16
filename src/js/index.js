@@ -215,16 +215,36 @@
 //     console.log(b);
 // }
 
-const correctLogin = prompt('Перевіряємо ваш логін!', '');
-const correctPassword = prompt('Перевіряємо ваш пароль!', '');
+// const correctLogin = prompt('Перевіряємо ваш логін!', '');
+// const correctPassword = prompt('Перевіряємо ваш пароль!', '');
 
-if (correctLogin === 'user123' ) {
-    console.log('Логін перевірено успішно!');
-} else {
-    console.log('Логін введено не вірно!');
-}
+// if (correctLogin === 'user123' ) {
+//     console.log('Логін перевірено успішно!');
+// } else {
+//     console.log('Логін введено не вірно!');
+// }
 
-if (correctPassword === 'qwerty') {
-    console.log('Правильний пароль!')
-} else {     console.log('Вспоминай пароль!');
-}
+// if (correctPassword === 'qwerty') {
+//     console.log('Правильний пароль!')
+// } else {     console.log('Вспоминай пароль!');
+// }
+
+// let dayNumber = +prompt('Enter a number from 1-7 to know the day of the week', '');
+
+// if (dayNumber === 1) {
+//     console.log('Monday');
+// } else if (dayNumber === 2) {
+//     console.log('Tuesday');
+// } else if (dayNumber === 3) {
+//     console.log('Wednesday');
+// } else if (dayNumber === 4) {
+//     console.log('Thursday');
+// } else if (dayNumber === 5) {
+//     console.log('Friday');
+// } else if (dayNumber === 6) {
+//     console.log('Saturday');
+// } else if (dayNumber === 7) {
+//     console.log('Sunday');
+// } else (dayNumber > 7) {
+//     console.log('Error');
+// }
