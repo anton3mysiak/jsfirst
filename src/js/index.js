@@ -248,3 +248,42 @@
 // } else (dayNumber > 7) {
 //     console.log('Error');
 // }
+
+// const hamburger = 3;
+// const fries = 1;
+// const cola = 0;
+// if (hamburger === 3 && cola === 1 && fries) {
+//     console.log('Поїли');
+// } else {
+//     console.log('Пішли додому!');
+// }
+
+// console.log(1 && 0);
+// console.log(1 && 8);
+// console.log(null && 5);
+// console.log(0 && 'safasfafsafasf')
+
+// const hamburger = 34;
+// const fries = '';
+// const cola = NaN;
+
+// console.log(hamburger || cola || fries);
+
+// const hamburger = 0;
+// const fries = undefined;
+// const cola = 2;
+// const nuggets = 5;
+
+
+// if (hamburger === 3 && nuggets === 7 || nuggets  && cola === 1 && fries)  {
+//     console.log('Поїли!');
+// } else {
+//     console.log('Пішли додому!');
+// }
+
+console.log(NaN || 2 || undefined);
+console.log(NaN && 2 && undefined);
+console.log(25 || null && !3);
+console.log(NaN || null || !3 || undefined ||5);
+console.log(NaN || null && !3 && undefined ||5);
+console.log(5 === 5 && 3 > 1 || 5);
