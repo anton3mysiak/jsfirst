@@ -281,9 +281,65 @@
 //     console.log('Пішли додому!');
 // }
 
-console.log(NaN || 2 || undefined);
-console.log(NaN && 2 && undefined);
-console.log(25 || null && !3);
-console.log(NaN || null || !3 || undefined ||5);
-console.log(NaN || null && !3 && undefined ||5);
-console.log(5 === 5 && 3 > 1 || 5);
+// console.log(NaN || 2 || undefined);
+// console.log(NaN && 2 && undefined);
+// console.log(25 || null && !3);
+// console.log(NaN || null || !3 || undefined ||5);
+// console.log(NaN || null && !3 && undefined ||5);
+// console.log(5 === 5 && 3 > 1 || 5);
+
+// first loop
+// let num = 50;
+
+// while (num < 55) {
+//     console.log(num);
+//     num++
+// }
+
+
+// second loop
+// let num = 50;
+// do {
+//     console.log(num);
+//     num++
+// }
+// while(num < 55);
+
+
+// for(let i = 1; i < 8; i++) {
+//     if (i === 6) {
+//         break;
+//     };
+//     console.log(`На цьому тижні ми ходили в кіно ${i} разів`);
+// }
+
+// for (let i = 1; i <= 3; i++) {
+//     console.log(`'і' спрацювало ${i} разів`);
+//     for(let j = 1; j <= 3; j++){
+//         console.log(`'j' спрацювало ${j} разів`);
+//     }
+// }
+
+
+// ялинка
+// let result = '';
+// const length = 115;
+
+// for(let i = 1; i < length; i++) {
+//     for(let j = 0; j < i; j++){
+//         result += '*';
+//     }
+//     result += '\n';
+// }
+
+// console.log(result);
+
+
+// задачка
+// for(let i =20; i >= 10; i--) {
+//     if (i===13) {
+//         break;
+//     }
+//     console.log(i);
+// }
+
